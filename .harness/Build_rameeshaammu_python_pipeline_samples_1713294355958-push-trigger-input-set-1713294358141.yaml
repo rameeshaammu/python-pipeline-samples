@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_rameeshaammu_python_pipeline_samples_1713294355958-push-trigger-input-set
+  identifier: Build_rameeshaammu_python_pipeline_samples_1713294355958pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: test
+  pipeline:
+    identifier: Build_rameeshaammu_python_pipeline_samples_1713294355958
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
